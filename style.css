@@ -1,3 +1,4 @@
+/* Grunnoppsett */
 body {
     font-family: 'Lato', sans-serif;
     background-image: url('img/main.png');
@@ -14,21 +15,47 @@ body {
     line-height: 1.6rem;
 }
 
-/* Overskrifter i Poppins */
-h1 {}
+/* Navigasjonsmeny */
+nav {
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
-,
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Overskrifter */
+h1,
 h2,
 h3,
 h4 {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Navn – stor overskrift på forsiden */
 .navn {
     font-size: 4rem;
     font-weight: 700;
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Undertittel under h1 */
+.undertittel {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    color: #ddd;
+    text-align: center;
 }
 
 /* Header */
@@ -37,7 +64,7 @@ header {
     padding: 2rem 0;
 }
 
-/* Profilbilde */
+/* Profilbilde (kan brukes senere) */
 .profilbilde {
     width: 120px;
     height: 120px;
@@ -46,7 +73,7 @@ header {
     margin-bottom: 1rem;
 }
 
-/* Hovedoverskrift */
+/* Hovedoverskrift (standard størrelse på andre sider) */
 h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
