@@ -1,39 +1,72 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-image: url('img/main.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
     max-width: 800px;
     margin: auto;
     padding: 1rem;
-    background-color: #2c2c2c;
-    color: #b1a7a7;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
 }
 
+/* Overskrifter i Poppins */
+h1 {}
 
+,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navn {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
 header {
     text-align: center;
     padding: 2rem 0;
 }
 
+/* Profilbilde */
+.profilbilde {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
 
+/* Hovedoverskrift */
 h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
-
+/* Seksjoner */
 section {
     margin-bottom: 2rem;
 }
 
-
+/* Lister */
 ul {
     list-style: disc;
     padding-left: 1.5rem;
 }
 
-
+/* Footer */
 footer {
     text-align: center;
-    color: #b1a7a7;
+    color: #ccc;
     font-size: 0.9rem;
     padding: 1rem 0;
 }
