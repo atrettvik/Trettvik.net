@@ -1,1 +1,0 @@
-docker stop cv-server && docker rm cv-server
